@@ -1,0 +1,9 @@
+export HTTP_PROXY=http://proxy.bloomberg.com:80
+export http_proxy=http://proxy.bloomberg.com:80
+export HTTPS_PROXY=http://proxy.bloomberg.com:80
+export https_proxy=http://proxy.bloomberg.com:80
+export DEV_GROUP=everyone
+export CFE_PROXY=http://bproxy.cfe.bloomberg.com:80
+export GIT_SSL_NO_VERIFY=true
+
+ulimit -n 2048

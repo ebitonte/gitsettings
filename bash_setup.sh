@@ -1,0 +1,1 @@
+cat ./bash_proxy > ~/.bash_profile

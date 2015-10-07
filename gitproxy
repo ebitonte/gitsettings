@@ -1,0 +1,26 @@
+[core]
+    # Use custom '.gitignore'
+    excludesfile = ~/.gitignore
+
+[credential]
+    helper = osxkeychain
+
+[http]
+    proxy = http://proxy.bloomberg.com:80
+    sslVerify = false
+
+[http "https://bbgithub.dev.bloomberg.com/"]
+    proxy = http://bproxy.cfe.bloomberg.com:80
+
+[url "https://github.com/"]
+    insteadOf = git://github.com/
+
+[url "https://bbgithub.dev.bloomberg.com/"]
+    insteadOf = git://github.dev.bloomberg.com/
+
+[url "https://bbgithub.dev.bloomberg.com/"]
+    insteadOf = git://bbgithub.dev.bloomberg.com/
+
+[hub]
+    protocol = https
+    host = github.dev.bloomberg.com
